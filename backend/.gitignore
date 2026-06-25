@@ -1,0 +1,105 @@
+# Build results
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+out/
+
+# Visual Studio files
+
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code
+
+.idea/
+.vscode/
+
+# Logs
+
+*.log
+
+# NuGet
+
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET Core
+
+project.assets.json
+project.nuget.cache
+
+# ASP.NET Scaffolding
+
+ScaffoldingReadMe.txt
+
+# Publish
+
+*.publishsettings
+publish/
+*.pubxml
+*.pubxml.user
+
+# IIS Express
+
+.vs/
+config/applicationhost.config
+
+# Resharper
+
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# DotCover
+
+*.dotCover
+
+# Azure
+
+*.azurePubxml
+.azure/
+
+# OS files
+
+[Dd]esktop.ini
+Thumbs.db
+
+# Test Results
+
+TestResults/
+*.trx
+*.coverage
+
+# Entity Framework
+
+*.mdf
+*.ldf
+
+# Secrets
+
+secrets.json
+appsettings.Development.json
+
+# Node (if frontend included)
+
+node_modules/
+dist/
+
+# Docker
+
+docker-compose.override.yml

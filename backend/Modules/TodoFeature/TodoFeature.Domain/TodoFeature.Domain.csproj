@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\HRMS.Shared.Core\HRMS.Core.Postgres\HRMS.Core.Postgres.csproj" />
+    <ProjectReference Include="..\..\..\Shared\HRMS.Shared.Domain\HRMS.Shared.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
